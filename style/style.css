@@ -1,0 +1,544 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.connect{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(8, 247, 0, 0.5);
+    margin-inline: 30%;
+    margin-block: 20px;
+    font-size: 30px;
+    border-radius: 15px;
+}
+.panneauAdmin{
+    padding: 20px;
+    background-color: #346077;
+    height: auto;
+}
+.modalContainer{
+    background: linear-gradient(#346077, #6593ac);
+}
+.modalDecoText{
+    color: white;
+    margin-bottom: 30px;
+}
+.modalDecoSubmit{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    background-color: #ffffff;
+}
+.titre{
+    display: flex;
+    align-items: center;
+    font-size: 75px;
+    color: white;
+}
+.H1Logo{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    height: 200px;
+    width: 200px;
+}
+.bouton{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.liHref{
+    margin-inline: 10%;
+    list-style: none;
+}
+.allHref{
+    text-decoration: none;
+    color: white;
+}
+.SignOut{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+  
+/* formulaire de connexion  */
+.connexionAdmin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.titreConnexion{
+    font-size: 60px;
+    margin-top: 40px;
+    color: black;
+}
+.connexionLabel{
+    margin-bottom: 10px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.allInput {
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 250px;
+    height: 25px;
+    background-color: white;
+}
+.connexionSubmit{
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 135px;
+    height: 30px;
+    border: none;
+    background-color: #346077;
+    color: white;
+}
+.connexionPassoublier{
+    cursor: pointer;
+    border: none;
+    width: 140px;
+    height: 30px;
+    color: black;
+}
+.connecter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.connecterP{
+    margin-top: 100px ;
+    color: black;
+    font-size: 45px;
+}
+.creationCompte{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 25px;
+    margin-right: 25px;
+    margin-block: 5px;
+
+}
+
+.sectionContainerGestionCompte{
+    display: flex;
+    justify-content: center;
+}
+.containerGestionCompte{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    background: linear-gradient(#346077, #6593ac);
+}
+.titreGestionCompte{
+    font-size: 60px;
+    margin-top: 40px;
+    color: white;
+}
+.connexionSubmit2{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 135px;
+    height: 30px;
+    background-color: #ffffff;
+}
+.LabelGestionCompte{
+    margin-bottom: 10px;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.sectionContainerCreationCompte{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.containerCreationCompte{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    background: linear-gradient(#346077, #6593ac);
+}
+
+.containerGestionSite{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-inline: 10%;
+}
+.elementGestionSite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.elementGestionSiteText{
+    font-size: 30px;
+}
+
+.containerGestionRealisation{
+    margin-top: 150px;
+}
+.elementGestionRealisation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.elementGestionRealisation2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 25px;
+
+}
+.textGestionRealisation{
+    margin-bottom: 0;
+    font-size: 30px;
+    font-family: 'Kaushan Script', cursive;
+}
+.dropdown_menu,
+.menu{
+    display: none;
+}
+@media (max-width: 600px) {
+    .titre{
+       font-size: 55px;
+    }
+    .connecter{
+    }
+    .connecterP{
+        text-align: center;
+        margin-top: 90px ;
+        font-size: 25px;
+    }
+    .modalDecoSubmitBurger{
+        cursor: pointer;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 135px;
+        height: 30px;
+        background-color: #ffffff;
+
+    }
+    .bouton{
+        display: none;
+    }
+    .menu {
+        display: flex;
+        position: absolute;
+        right: 0;
+        top: 180px;
+      
+    }
+    .dropdown_menu.open {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        margin-top: 200px;
+    }
+    .toggle_btn {
+        margin-top: 15px;
+        margin-right: 10px;
+        color: aliceblue;
+        font-size: 1.5rem;
+        cursor: pointer;
+        display: block;
+    }
+    .dropdown_menu {
+        display: flex;
+        position: absolute;
+        right: 2rem;
+        left: 2rem;
+        height: 0;
+        top: 60px;
+        background: #346077d7;
+        backdrop-filter: blur(15px);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .burger{
+        margin-block: 20px;
+        list-style: none;
+    }
+    .textBurger{
+        text-decoration: none;
+        padding: 0.7rem;
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navUpdate{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.ulUpdate{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.ulUpdate li{
+    list-style-type: none;
+    font-family: 'Average Sans', sans-serif;
+    font-size: 20px;
+    color: black;
+    padding-inline: 8px;
+    padding-block: 4px;
+    border-radius: 10px;
+}
+
+.ulUpdate li:hover{
+    background-color: #346077;
+    color: white;
+
+}
+
+.afficheAllLink{
+    text-decoration: none;
+}
+
+.ulUpdate a{
+    text-decoration: none;
+}
+
+.chantierAfficheUpdate, .chantierAfficheUpdate2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.afficher:hover{
+    background-color: #346077;
+    color: white;
+}
+
+.afficher{
+    display: flex;
+    justify-content: center;
+    margin-block: 2%;
+    margin-inline: auto;
+    font-family: 'Average Sans', sans-serif;
+    font-size: 18px;
+    color: black;
+    width: 8%;
+    border-radius: 8px;
+    min-width: 100px;
+    max-width: 150px;
+}
+
+.cardupdate{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    font-family: 'Average Sans', sans-serif;
+    font-size: 18px;
+    color: aliceblue;
+    
+}
+
+.imageCardUpdate{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-block: 5%;
+}
+
+.imageAvant, .imageApres{
+    width: 35%;
+    text-align: center;
+}
+
+.imageAvant img, .imageApres img{
+    width: 100%;
+    height: 125px;
+    object-fit:cover;
+    border-radius: 16px;
+}
+
+.imageAvantUp, .imageApresUp{
+    width: 45%;
+    text-align: center;
+}
+
+.imageAvantUp img, .imageApresUp img{
+    width: 100%;
+    height: 250px;
+    object-fit:cover;
+    border-radius: 16px;
+
+}
+
+.inputHidden{
+    visibility: hidden;
+    width: 0px;
+}
+
+.updateForm{
+    display: flex;
+    justify-content: center;
+    background-color: #346077;
+    width: 60%;
+    border-radius: 16px;
+    min-width: 300px;
+}
+
+.slideChantierUpdate{
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 10%;
+    max-width: 1350px;
+}
+
+.titleAffiche{
+    text-align: center;
+    margin:20px;
+    font-family: 'Average Sans', sans-serif;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.updateCardPost{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #346077;
+    margin-bottom:3%;
+    margin-inline: 3px;
+    border-radius: 12px;
+    font-family: 'Average Sans', sans-serif;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.positionDiv{
+    display: flex;
+    margin: 3px;
+    width: 60%;
+}
+
+.imageDivUpdate{
+    width: 100%;
+    border-radius: 16px;
+}
+
+.updOrDelete{
+    margin-bottom: 3px;
+}
+
+.mainUpdateAdmin{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divUpdateCardModifer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+}
+
+.selectChantier{
+    width: 100%;
+    text-align: center;
+}
+
+.inputModifier{
+    border-radius: 4px;
+    padding-inline: 2px;
+    text-align: center;
+    max-width: 50%;
+    margin: 2px;
+}
+
+.areaModifier{
+    width: 80%;
+    height: 100px;
+    font-family: 'Average Sans', sans-serif;
+    font-size: 18px;
+    padding-inline:2px;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    .imageCardUpdate{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imageDivUpdate{
+        width: 100%;
+    }
+    .imageAvant,.imageApres{
+        width: 60%;
+        max-width: 150px;
+    }
+    .imageAvantUp,.imageApresUp{
+        min-width: 125px;
+    }
+
+    .updateCardPost{
+        width: 80%;
+        min-width: 200px;
+
+    }
+
+    .ulUpdate{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ulUpdate li{
+        white-space:nowrap;
+    }
+
+    .updateForm{
+        min-width:200px;
+
+    }
+
+    .imageAvantUp img, .imageApresUp img{
+        height: 125px;
+    }
+
+
+}
+ 
